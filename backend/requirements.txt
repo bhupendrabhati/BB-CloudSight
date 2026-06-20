@@ -1,0 +1,33 @@
+# AWS Infra Vision - Backend Dependencies
+# Production requirements
+
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# AWS SDK
+boto3==1.34.0
+botocore==1.34.0
+
+# Database
+sqlalchemy==2.0.25
+alembic==1.13.1
+
+# Data Validation
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Security
+keyring==24.3.0
+cryptography==41.0.7
+
+# Utilities
+python-dateutil==2.8.2
+requests==2.31.0
+aiofiles==23.2.1
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+httpx==0.26.0

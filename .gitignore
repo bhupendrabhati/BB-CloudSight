@@ -1,0 +1,82 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+release/
+out/
+
+# Electron
+*.dmg
+*.exe
+*.msi
+*.AppImage
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.nyc_output/
+
+# Environment variables
+.env.local
+.env.production
+
+# Terraform state (if testing locally)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# AWS credentials (should never be committed)
+.aws/
+credentials
+config
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Documentation build
+docs/_build/
+
+AWS.txt
+
+aws-infra-vision.log
+
+.pytest_cache/
+
+CHANGELOG.md
